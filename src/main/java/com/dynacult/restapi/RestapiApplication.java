@@ -16,6 +16,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 @EnableSwagger2
 public class RestapiApplication {
 
+	//reference : https://www.dariawan.com/tutorials/spring/spring-boot-jpa-hibernate-postgresql-restful-crud-api-example/
 	public static void main(String[] args) {
 		SpringApplication.run(RestapiApplication.class, args);
 	}
